@@ -1,0 +1,22 @@
+body {
+ background-color: black;
+}
+
+.main {
+
+}
+
+.header {
+    background-color: rgb(41, 39, 39);
+    width: 100%;
+}
+
+.leftContainer {
+
+}
+
+.logo {
+    padding: 0.001ch 1ch 1ch 2ch;
+    color: rgb(212, 212, 212);
+    font-family: 'Poppins', sans-serif;
+}
