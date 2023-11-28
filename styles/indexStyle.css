@@ -43,7 +43,8 @@ body {
 }
 
 .homeButton:hover {
-    background-color: rgb(255, 128, 0);
+    background-color: white;
+    color: black;
     margin-left: 85%;
     border: none;
     width: 55px;
