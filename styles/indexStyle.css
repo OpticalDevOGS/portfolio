@@ -36,7 +36,10 @@ body {
     font-family: 'IBM Plex Mono', monospace;
     background-color: rgba(53, 49, 52, 0);
     color: white;
-    margin-left: 85%;
+    float: right;
+    margin-right: 20px;
+    position: relative;
+    margin-top: auto;
     border: none;
     width: 55px;
     height: 100%;
@@ -45,17 +48,9 @@ body {
 .homeButton:hover {
     background-color: white;
     color: black;
-    margin-left: 85%;
-    border: none;
-    width: 55px;
-    height: 100%;
 }
 
-.homeButton:hover::after {
-    color: white;
-    margin-left: 85%;
-    transition: ease 200ms;
-    border: none;
-    width: 55px;
-    height: 100%;
+.homeButton:active {
+    background-color: rgba(255, 255, 255, 0.733);
+    color: black;
 }
