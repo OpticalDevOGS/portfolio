@@ -1,11 +1,15 @@
 // Get the button element
-const button = document.getElementsByClassName('.homeButton');
+const button = document.getElementsByClassName('.headingButton');
 console.log("tis working");
 if (button != null) {
     setTimeout(() => {
         button.value = "meh";
         console.log("tis working");
     }, 2000);
+}
+
+window.onload = function() {
+    document.getElementsByClassName('.headerButton').className += "loaded";
 }
 
 button.value = "meh";

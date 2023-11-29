@@ -27,30 +27,28 @@ body {
 
 .logo {
     padding: 0ch 0ch 0ch 2ch;
-    color: rgb(212, 212, 212);
+    color: white;
     font-family: 'IBM Plex Mono', monospace;
     text-align: left;
+    margin-top: 2px;
 }
 
-.homeButton {
+.headerButton {
     font-family: 'IBM Plex Mono', monospace;
     background-color: rgba(53, 49, 52, 0);
     color: white;
     float: right;
     margin-right: 20px;
-    position: relative;
-    margin-top: auto;
     border: none;
-    width: 55px;
+    width: auto;
     height: 100%;
 }
 
-.homeButton:hover {
+.headerButton:hover {
     background-color: white;
     color: black;
 }
 
-.homeButton:active {
+.headerButton:active {
     background-color: rgba(255, 255, 255, 0.733);
-    color: black;
 }
