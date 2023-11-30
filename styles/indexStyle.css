@@ -2,12 +2,35 @@ body {
  background-color: black;
 }
 
+a {
+    font-style: normal;
+    text-decoration: none;
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 500;
+    background-color: rgba(53, 49, 52, 0);
+    color: #0c52df;
+    padding-left: .5ch;
+    padding-right: .5ch;
+    float: right;
+    margin-right: 20px;
+    border: none;
+    width: auto;
+    height: 100%;
+}
+
+a:hover {
+    background-color: #0c52df;
+    font-style: normal;
+    color: rgb(19, 18, 18);
+}
+
 .main {
     background-color: rgb(19, 18, 18);
     color: white;
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 300;
     width: 100%;
-    height: 90%;
+    height: auto;
     margin: auto;
     position: absolute;
     top: 45px;
@@ -15,13 +38,21 @@ body {
 
 .name {
     font-size: 10vw;
-    margin-bottom: auto;
-    position: absolute;
+    position: relative;
     padding-left: 1ch;
+    display: flex;
+    right: 37vw;
+    bottom: 5vw;
 }
+
 .age {
+    padding-left: 1ch;
+    position: relative;
+    display: flex;
     font-size: 3vw;
-    margin-bottom: auto;
+    margin-top: 100px;
+    left: 31vw;
+    top: 4vw;
 }
 
 .header {
@@ -29,24 +60,35 @@ body {
     position: absolute;
     background-color: rgb(19, 18, 18);
     width: 100%;
-    height: 25px;
-    
+    height: 30px;
+    align-self: center;
 }
 
 .leftContainer {
     
 }
 
+.socials {
+    text-align: left;
+    display: flex;
+    position: relative;
+    font-size: 2vw;
+    bottom: 11vw;
+}
+
 .logo {
     padding: 0ch 0ch 0ch 2ch;
     color: white;
     font-family: 'IBM Plex Mono', monospace;
+    font-weight: 500;
     text-align: left;
     margin-top: 2px;
+    position: absolute;
 }
 
 .headerButton {
     font-family: 'IBM Plex Mono', monospace;
+    font-weight: 500;
     background-color: rgba(53, 49, 52, 0);
     color: white;
     float: right;
@@ -54,6 +96,7 @@ body {
     border: none;
     width: auto;
     height: 100%;
+    position: absolute;
 }
 
 .headerButton:hover {
