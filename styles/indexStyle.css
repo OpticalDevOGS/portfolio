@@ -37,22 +37,23 @@ a:hover {
 }
 
 .name {
-    font-size: 10vw;
+    background-color: #004ff8;
+    font-size: 7vw;
     position: relative;
-    padding-left: 1ch;
-    display: flex;
-    right: 37vw;
+    justify-content: left;
     bottom: 5vw;
 }
 
 .age {
     padding-left: 1ch;
     position: relative;
-    display: flex;
+    justify-content: left;
+    text-align: left;
+    /* display: flex; */
     font-size: 3vw;
     margin-top: 100px;
-    left: 31vw;
-    top: 4vw;
+    right: 1vw;
+    top: 7vw;
 }
 
 .header {
@@ -61,7 +62,6 @@ a:hover {
     background-color: rgb(19, 18, 18);
     width: 100%;
     height: 30px;
-    align-self: center;
 }
 
 .leftContainer {
@@ -83,7 +83,7 @@ a:hover {
     font-weight: 500;
     text-align: left;
     margin-top: 2px;
-    position: absolute;
+    /* position: absolute; */
 }
 
 .headerButton {
@@ -96,7 +96,7 @@ a:hover {
     border: none;
     width: auto;
     height: 100%;
-    position: absolute;
+    /* position: absolute; */
 }
 
 .headerButton:hover {
