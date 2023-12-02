@@ -37,10 +37,11 @@ a:hover {
 }
 
 .name {
-    background-color: #004ff8;
+    /* background-color: #004ff8; */
     font-size: 7vw;
     position: relative;
     justify-content: left;
+    padding-left: .5ch;
     bottom: 5vw;
 }
 
@@ -72,6 +73,7 @@ a:hover {
     text-align: left;
     display: flex;
     position: relative;
+    padding-left: 2ch;
     font-size: 2vw;
     bottom: 11vw;
 }
