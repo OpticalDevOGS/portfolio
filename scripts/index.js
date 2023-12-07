@@ -1,5 +1,5 @@
 var birthdayDate = new Date("2009-05-21");
-const description = "Hello, I'm a JS, CSS and HTML developer that also does game devleopment.";
+const description = "Hello, I'm a JS, CSS and HTML developer that also does game development.";
 
 function ageCalculation() {
     var ageDifference = Date.now() - birthdayDate;
@@ -14,7 +14,7 @@ function typewritter(element, text, i=0) {
         return;
     }
 
-    setTimeout(() => typewritter(element, text, i+1), Math.random() * 100);
+    setTimeout(() => typewritter(element, text, i+1), Math.random() * 95);
 }
 
 document.onreadystatechange = () => {

@@ -33,7 +33,42 @@ a:hover {
     height: auto;
     margin: auto;
     position: absolute;
-    top: 45px;
+}
+
+.footer {
+    background-color: rgb(19, 18, 18);
+    color: white;
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 300;
+    width: 100%;
+    position:relative;
+}
+.footerTitle {
+    color: white;
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 500;
+    font-size: 2.3vw;
+}
+
+.footerContents {
+    color: rgb(116, 116, 116);
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 300;
+    font-size: 2.3vw;
+}
+
+hr {
+    color: black;
+    border-color: rgb(0, 0, 0);
+    background-color: black;
+    
+}
+
+.footerHR {
+    color: black;
+    border-color: rgb(0, 0, 0);
+    background-color: black;
+    height: 20px;
 }
 
 .name {
@@ -59,7 +94,7 @@ a:hover {
 
 .header {
     margin: auto;
-    position: absolute;
+    position: relative;
     background-color: rgb(19, 18, 18);
     width: 100%;
     height: 30px;
@@ -84,9 +119,11 @@ a:hover {
 .socials {
     text-align: left;
     display: flex;
+     font-family: 'IBM Plex Mono', monospace;
+    font-weight: 500;
     position: relative;
-    padding-left: 2ch;
-    font-size: 2vw;
+    padding-left: 1.5ch;
+    font-size: 3vw;
     bottom: 11vw;
 }
 
@@ -95,9 +132,10 @@ a:hover {
     color: white;
     font-family: 'IBM Plex Mono', monospace;
     font-weight: 500;
+    height: 100%;
     text-align: left;
-    margin-top: 2px;
-    /* position: absolute; */
+    /* margin-top: 2px; */
+    position: relative;
 }
 
 .headerButton {
