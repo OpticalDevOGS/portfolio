@@ -1,0 +1,15 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(129, 204, 204);
+    margin: auto;
+    text-align: center;
+    align-items: center;
+}
+
+.dog {
+    margin: auto;
+}
+
+h1 {
+  background-color: rgb(10, 10, 202);
+}
